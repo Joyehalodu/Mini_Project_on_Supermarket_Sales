@@ -8,3 +8,25 @@ The main goals of this project are to:
 * Understand customer purchasing behavior
 * Evaluate branch performance
 * Examine payment method trends
+## Dataset Description
+The dataset contains transactional records from a supermarket and includes the following key fields:
+* Transaction ID
+* CustomerID
+* CustomerName 
+* ProductCategory
+* ProductName
+* Unit Price
+* Quantity
+* Date
+* Payment Method
+* City
+## Key Analysis & Queries
+* Total Quantity of items sold
+SELECT SUM(Quantity) AS Total_quantity_of_items_sold
+FROM dbo.Supermarket
+
+
+
+
+
+
