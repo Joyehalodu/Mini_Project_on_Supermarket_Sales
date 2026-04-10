@@ -21,7 +21,8 @@ The dataset contains transactional records from a supermarket and includes the f
 * Payment Method
 * City
 ## Key Analysis & Queries
-* Total Quantity of items sold/
+* Total Quantity of items sold
+
 SELECT SUM(Quantity) AS Total_quantity_of_items_sold
 FROM dbo.Supermarket
 
