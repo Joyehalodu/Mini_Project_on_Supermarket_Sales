@@ -61,7 +61,12 @@ ORDER BY SUM(Quantity) DESC
 * The highest revenue was generated from Rice 5kg
 * Most Customers preferred using Cash as their PaymentMethod
 * Snacks had the highest sales volume
-*  
+
+## Recommendations
+* Increase stock for high-performing Product Category
+* Optimize payment options to match customer preferences
+* Focus marketing efforts on top-performing branches
+* Introduce promotions during low-sales periods
 
 
 
