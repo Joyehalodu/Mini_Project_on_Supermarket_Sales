@@ -33,7 +33,7 @@ SELECT COUNT(TransactionID) as Total_number_of_transactions
 
 FROM dbo.Supermarket
 
-*Average UnitPrice of the products
+* Average UnitPrice of the products
 
 SELECT Round(AVG(UnitPrice), 2) AS Average_UnitPrice_Of_the_products
 
