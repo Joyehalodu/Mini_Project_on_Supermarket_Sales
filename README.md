@@ -27,6 +27,18 @@ SELECT SUM(Quantity) AS Total_quantity_of_items_sold
 
 FROM dbo.Supermarket
 
+* Total Number of Transactions
+
+SELECT COUNT(TransactionID) as Total_number_of_transactions
+
+FROM dbo.Supermarket
+
+*Average UnitPrice of the products
+
+SELECT Round(AVG(UnitPrice), 2) AS Average_UnitPrice_Of_the_products
+
+FROM dbo.Supermarket
+
 
 
 
