@@ -39,6 +39,33 @@ SELECT Round(AVG(UnitPrice), 2) AS Average_UnitPrice_Of_the_products
 
 FROM dbo.Supermarket
 
+* Total Revenue by each PaymentMethod
+
+SELECT PaymentMethod ,ROUND(SUM(Quantity*UnitPrice),1) AS Total_Revenue
+
+FROM dbo.Supermarket
+
+GROUP BY PaymentMethod
+
+* Total Quantity of top three(3) most sold products
+
+SELECT TOP 3 ProductName, SUM(Quantity) AS Total_Quantity
+
+FROM dbo.Supermarket
+
+GROUP BY ProductName
+
+ORDER BY SUM(Quantity) DESC 
+
+## Key Insights
+* The highest revenue was generated from Rice 5kg
+* Most Customers preferred using Cash as their PaymentMethod
+* Snacks had the highest sales volume
+*  
+
+
+
+
 
 
 
